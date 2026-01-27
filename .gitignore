@@ -1,0 +1,34 @@
+# Poetry
+.venv/
+poetry.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and artifacts (mantém apenas marcadores vazios)
+data/raw/
+data/interim/
+data/processed/
+data/features/
+reports/
+models/
+!data/**/.gitkeep
+!reports/.gitkeep
+!models/.gitkeep
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Tests
+.pytest_cache/
+
+

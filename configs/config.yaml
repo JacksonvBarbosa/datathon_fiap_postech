@@ -1,0 +1,15 @@
+# Configuração de exemplo
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  features: data/features
+  models: models
+
+training:
+  target_column: target
+  test_size: 0.2
+  random_state: 42
+
+logging:
+  level: INFO
+

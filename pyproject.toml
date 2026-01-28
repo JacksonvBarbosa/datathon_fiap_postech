@@ -8,6 +8,12 @@ packages = [{ include = "mlops_portfolio", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pandas = "^3.0.0"
+numpy = "^2.4.1"
+openpyxl = "^3.1.5"
+pyarrow = "^23.0.0"
+matplotlib = "^3.10.8"
+seaborn = "^0.13.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"

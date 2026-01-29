@@ -12,10 +12,6 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Data and artifacts (mantém apenas marcadores vazios)
-data/raw/
-data/interim/
-data/processed/
-data/features/
 reports/
 models/
 !data/**/.gitkeep
